@@ -1,0 +1,297 @@
+*{
+
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+
+}
+:root{
+    --page-padding:100px;
+}
+.horisontal-ul li {
+    display: inline-block;
+    transition: 0.3s;
+ }
+ .horisontal-ul a{
+    color: #857363;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    
+ }
+ .horisontal-ul li:hover a{
+    color:white;
+
+ }
+
+.weapon{
+    font-size: 50px;
+    color:#ffffff;
+
+}
+.header-top-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.header-top{
+    background-color: #262523;
+}
+.selectors{
+    display:flex;
+    gap:10px;
+}
+
+.body{
+    background-color: #f2f2f2;
+}
+
+.header{
+    background-color: #302c29;
+}
+.en,.ua,.de{
+    background-color: #262523;
+    color:rgba(255,255,255,0.5);
+}
+
+.header-center-content{
+display:flex;
+gap:10px;
+align-items: center; 
+justify-content: space-between;
+padding: 10px 0px;
+}
+.number{
+    color: #7e6c60;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.input-search{
+    
+    padding: 6px;
+    background-color:#413d3a ;
+    
+}
+.cart-button{
+
+    background-color: #8b7869;
+  
+}
+
+.header-bottom-content{
+    align-items: center;
+    background-color: #302c29;
+}
+.bot-ul {
+    display:flex;
+    list-style: none;
+    background-color: #3f3b38 ;
+}
+.selectors select{
+    border: none;
+    background: transparent;
+    outline: none;
+    color:rgba(255,255,255,0.5);
+}
+.selectors select option{
+    color: black;
+}
+.header-center-right-side{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.number i{
+    color: white;
+}
+.search-button{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding-right: 10px;
+    background-color: transparent;
+    border: none;
+    color:#8b7869;
+}
+.search-wrapper{
+    position: relative;
+}
+.input-search{
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    width: 220px;
+    font-size: 16px;
+}
+.cart-button{
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header-bottom .menu{
+    border-right: 1px solid #302c29 ;
+    padding: 15px;
+}
+.header-bottom .menu:hover a{
+color:#a69180;
+}
+.bot-ul a{
+    list-style: none;
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family:sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.photo-main{
+    margin-top:20px;
+    
+}
+.grid-container{
+    margin-top: 25px;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+}
+.knives{
+    background-image: url(https://img.freepik.com/premium-photo/folding-knives-black-background-pen-knives-dark-background_227841-1213.jpg?w=2000);      
+}
+.handguns{
+    background-image: url(https://wallpapercave.com/wp/wp2733524.jpg);  
+}
+.automatic{
+    background-image: url(https://images4.alphacoders.com/968/96814.jpg);  
+}
+.long-guns{
+    background-image: url(https://thumbs.dreamstime.com/b/weapons-military-equipment-army-assault-rifle-gun-m-pistol-green-uniform-background-215200905.jpg);
+}
+.grid-item{
+    padding: 25px 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+.grid-img{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.grid-container .grid-item:hover{
+    color: #8b7869;
+    cursor: -webkit-grab;
+}
+.grid-h{
+    font-size: 45px;
+    font-weight:bold;
+}
+.grid-p{
+    font-size: 35px;
+    font-weight: bold;
+}
+.grid-text{
+    font-size: 14px;
+    font-weight: 600;
+    width: 60%;
+    line-height: 1.4;
+}
+.main-grid{
+display: grid;
+gap: 30px;
+grid-template-columns: repeat(4, 1fr);
+margin: 100px 0px 50px 0px;
+}
+.grid-weapons{
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    font-weight: bold;
+}
+.grid-description{
+    font-size: 18px;
+    font-weight: bold;
+    color: #948275;
+    margin-top: 5px;
+}
+.grid-specification{
+    color:rgba(0, 0, 0, 0.61);
+    margin-top: 5px;
+}
+.main-button{
+    padding: 8px;
+    width: 60%;
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #3d3936;
+    border: none;
+    cursor: cell;
+}
+
+.footer{
+    background-color: #302c29;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0px 0px 0px;
+}
+.footer-left{
+    list-style: none;
+    padding: 0px 0px 5px 0px;
+}
+.footer-main{
+    padding: 0px 0px 15px 0px;
+}
+.footer-main{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+.footer-left a{
+    list-style: none;
+    text-transform: uppercase;
+    color: #8b7869;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-item{
+    width: 25%;
+}
+.footer-end{
+    display: inline-block;
+    margin: 30px 0px 30px 0px;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #565250;
+    font-weight: 600;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
