@@ -52,7 +52,7 @@
     }
     .footer-div{
         align-items:flex-start;
-        padding: 20px 0px;
+        flex-direction:column;
     }
     .footer-end{
         font-size: 10px;
